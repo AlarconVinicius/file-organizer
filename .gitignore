@@ -1,6 +1,23 @@
-settings.json
-.vscode
-__pycache__
-build
-dist
+# Ambiente virtual
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build / dist (PyInstaller)
+build/
+dist/
 *.spec
+
+# VS Code
+.vscode/
+settings.json
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

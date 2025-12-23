@@ -1,0 +1,5 @@
+python -m venv venv
+.\venv\Scripts\Activate
+deactivate         
+pip install Pillow piexif pymediainfo pyinstaller
+python .\file-organizer-by-date.py
